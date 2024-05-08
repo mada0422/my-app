@@ -31,9 +31,7 @@ function Intro () {
             <ul className={styles.ulDes}>
               <li className={styles.liDes}>Home</li>
               <li className={styles.liDes}>Service</li>
-              <li className={styles.liDes}>Price</li>
-              <li className={styles.liDes}> Careers</li>
-              <li className={styles.liDes}>Contacte</li>
+           
 
             </ul>
 
