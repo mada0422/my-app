@@ -22,6 +22,9 @@ export const Register = (props) => {
             <label htmlFor="password"><b>Password</b></label>
             <input value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="********" id="password" name="password" />
             {/* <button type="submit">Log In</button> */}
+            {
+                pass>7?<p>sall</p>:<p>ok</p>
+            }
         </form>
         <button type="submit" onClick={() => props.onFormSwitch('login')}>Already have an account? Login here.</button>
     </div>
